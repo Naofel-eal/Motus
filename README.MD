@@ -14,7 +14,7 @@ The application utilizes Docker to simplify deployment, comprising three custom 
   
 Note that the project only supports French for the moment. English is coming soon...
 
-## Demonstration
+## Demonstration video
 
 <p align="center">
   <img src="resources/demo.gif" />
