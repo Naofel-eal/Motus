@@ -9,7 +9,16 @@
 
 ## Presentation
 
-Welcome to the Motus Game repository, a comprehensive setup designed to launch a Motus game application with ease. This project is structured into two main components, each managed as a submodule: `MotusAPI` for the backend and `MotusIHM` for the frontend interface. The application utilizes Docker to simplify deployment, comprising three custom Docker containers for the Angular frontend, the Spring Boot backend, and the PostgreSQL database.
+Welcome to the Motus Game repository, a comprehensive setup designed to launch a Motus game application with ease. This project is structured into two main components, each managed as a submodule: `MotusAPI` for the backend and `MotusIHM` for the frontend interface.  
+The application utilizes Docker to simplify deployment, comprising three custom Docker containers for the Angular frontend, the Spring Boot backend, and the PostgreSQL database.
+  
+Note that the project only supports French for the moment. English is coming soon...
+
+## Demonstration
+
+<p align="center">
+  <img src="resources/demo.gif" />
+</p>
 
 ## Prerequisites
 
@@ -31,7 +40,12 @@ To get your Motus game application running, follow these steps:
     git clone --recurse-submodules https://github.com/Naofel-eal/Motus
     ```
 
-    If you've already cloned the repository without the submodules, you can fetch them by running:
+    If you don't want to manually rebuild the projects, you can just use the following command:  
+     ```bash
+    git clone https://github.com/Naofel-eal/Motus
+    ```
+
+    And if you've already cloned the repository without the submodules and you need it, you can fetch them by running:
 
     ```bash
     git submodule update --init --recursive
