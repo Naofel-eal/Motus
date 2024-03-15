@@ -1,0 +1,6 @@
+[submodule "MotusAPI"]
+	path = MotusAPI
+	url = https://github.com/Naofel-eal/MotusAPI
+[submodule "MotusIHM"]
+	path = MotusIHM
+	url = https://github.com/Naofel-eal/MotusIHM
