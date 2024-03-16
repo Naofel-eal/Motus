@@ -51,9 +51,11 @@ To get your Motus game application running, follow these steps:
     git submodule update --init --recursive
     ```
 
-    To update the images with a newest version of the game you can use the following command:
+    To update the images with a newest version of the game you can use the following commands:
     ```bash
     docker compose pull
+    docker compose up -d --remove-orphans
+    docker image prune
     ```
 
 2. **Launch with Docker Compose**
